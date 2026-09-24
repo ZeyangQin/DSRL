@@ -13,7 +13,7 @@
 
 This repository contains the implementation of **DSRL (Dual-Space Representation Learning Framework)** for Conditional Semantic Textual Similarity (C-STS).
 
-DSRL is designed for cross-encoder models and explicitly optimizes the textual and conditional textual representation spaces. It combines a **Uniformity Contrastive Loss (UCL)** for improving textual representation uniformity, a **Rank Consistency Loss (RCL)** for modeling relative ranking relations, and pointwise similarity supervision.
+DSRL is designed for cross-encoder models and explicitly models and optimizes the textual and conditional textual representation spaces. It jointly incorporates a **Uniformity Contrastive Loss (UCL)** to promote uniform textual representations, a **Rank Consistency Loss (RCL)** to shape inter-sample relations among conditional sentence representations, and **MSE** to provide intra-sample supervision in the conditional textual representation space.
 
 This code is based on the official [C-STS](https://github.com/princeton-nlp/c-sts/tree/main) implementation.
 
